@@ -1,0 +1,11 @@
+.page {
+	display: inline-block;
+}
+
+.skill {
+	height: 50px;
+	width: 125px;
+	border: black 2px outset;
+	margin: 10px;
+	float: left;
+}

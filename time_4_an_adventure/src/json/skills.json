@@ -1,0 +1,72 @@
+[
+	{
+		"name": "",
+		"type": [],
+		"progress": 0,
+		"master": 100,
+		"description": [],
+		"requirement": [],
+		"roll": "",
+		"cooldown": 0,
+		"cost": {
+			"resource": "",
+			"value": 0
+		}
+	},
+	{
+		"name": "Flames",
+		"type": [ "magic", "fire", "damage" ],
+		"progress": 0,
+		"master": 100,
+		"description": [ "Releasing a burst of flames from your hand in a short burst." ],
+		"requirement": [],
+		"roll": "1d4",
+		"cooldown": 0,
+		"cost": {
+			"resource": "mana",
+			"value": 10
+		}
+	},
+	{
+		"name": "Blast of Cold",
+		"type": [ "magic", "ice", "damage" ],
+		"progress": 0,
+		"master": 100,
+		"description": [ "Releasing a blast of rigid cold air from your hand in a short burt." ],
+		"requirement": [],
+		"roll": "1d6",
+		"cooldown": 0,
+		"cost": {
+			"resource": "mana",
+			"value": 15
+		}
+	},
+	{
+		"name": "Arcane Burst",
+		"type": [ "magic", "arcane", "damage" ],
+		"progress": 0,
+		"master": 100,
+		"description": [ "Release a short burst of pure arcane energy from your hand." ],
+		"requirement": [],
+		"roll": "2d4",
+		"cooldown": 1,
+		"cost": {
+			"resource": "mana",
+			"value": 25
+		}
+	},
+	{
+		"name": "Hands of Healing",
+		"type": [ "holy", "healing" ],
+		"progress": 0,
+		"master": 100,
+		"description": [ "Radiating holy energy from your hands healing whatever they touch." ],
+		"requirement": [],
+		"roll": "1d4",
+		"cooldown": 0,
+		"cost": {
+			"resource": "mana",
+			"value": 15
+		}
+	}
+]
