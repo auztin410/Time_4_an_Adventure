@@ -4,6 +4,7 @@
 		"type": [],
 		"progress": 0,
 		"master": 100,
+		"tier": 0,
 		"description": [],
 		"requirement": [],
 		"roll": "",
@@ -11,6 +12,10 @@
 		"cost": {
 			"resource": "",
 			"value": 0
+		},
+		"action": {
+			"type": [],
+			"cost": []
 		}
 	},
 	{
@@ -18,6 +23,7 @@
 		"type": [ "magic", "fire", "damage" ],
 		"progress": 0,
 		"master": 100,
+		"tier": 0,
 		"description": [ "Releasing a burst of flames from your hand in a short burst." ],
 		"requirement": [],
 		"roll": "1d4",
@@ -25,6 +31,10 @@
 		"cost": {
 			"resource": "mana",
 			"value": 10
+		},
+		"action": {
+			"type": ["any"],
+			"cost": [1]
 		}
 	},
 	{
@@ -32,6 +42,7 @@
 		"type": [ "magic", "ice", "damage" ],
 		"progress": 0,
 		"master": 100,
+		"tier": 0,
 		"description": [ "Releasing a blast of rigid cold air from your hand in a short burt." ],
 		"requirement": [],
 		"roll": "1d6",
@@ -39,6 +50,10 @@
 		"cost": {
 			"resource": "mana",
 			"value": 15
+		},
+		"action": {
+			"type": ["any"],
+			"cost": [1]
 		}
 	},
 	{
@@ -46,6 +61,7 @@
 		"type": [ "magic", "arcane", "damage" ],
 		"progress": 0,
 		"master": 100,
+		"tier": 0,
 		"description": [ "Release a short burst of pure arcane energy from your hand." ],
 		"requirement": [],
 		"roll": "2d4",
@@ -53,6 +69,10 @@
 		"cost": {
 			"resource": "mana",
 			"value": 25
+		},
+		"action": {
+			"type": ["any"],
+			"cost": [1]
 		}
 	},
 	{
@@ -60,6 +80,7 @@
 		"type": [ "holy", "healing" ],
 		"progress": 0,
 		"master": 100,
+		"tier": 0,
 		"description": [ "Radiating holy energy from your hands healing whatever they touch." ],
 		"requirement": [],
 		"roll": "1d4",
@@ -67,6 +88,10 @@
 		"cost": {
 			"resource": "mana",
 			"value": 15
+		},
+		"action": {
+			"type": ["any"],
+			"cost": [1]
 		}
 	}
 ]
